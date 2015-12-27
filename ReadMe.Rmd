@@ -8,7 +8,7 @@ output: html_document
 ##All Information related to the project is posted on this repository. 
 
 ####For code source please reference:
-1. "DataScience8PracticalMachineLearningProject.x" 
+1. "DataScience8PracticalMachineLearningProject.x" .
 
 Where x = .md,.Rmd,.html.
 

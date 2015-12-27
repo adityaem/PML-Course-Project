@@ -192,7 +192,7 @@ print(modFit, digits=3)
 fancyRpartPlot(modFit$finalModel,cex=.5,under.cex=1,shadow.offset=0)
 ```
 
-![](Index_files/figure-html/unnamed-chunk-5-1.png) 
+![](FinalSubmission_files/figure-html/unnamed-chunk-5-1.png) 
 
 ```r
 predictions <- predict(modFit, newdata=Training_Subset)

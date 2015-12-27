@@ -5,9 +5,13 @@ date: "December 19, 2015"
 output: html_document
 ---
 
-##All Information related to the project is posted on this repository. For complete Source please reference Index.md, Index.html and Index.Rmd Files
+##All Information related to the project is posted on this repository. 
+For code source please reference:
+"DataScience8PracticalMachineLearningProject.x" .
+Where x = .md,.Rmd,.html.
 
-Compiled with results html page Link to git.io Project Page:[https://adityaem.github.io/DataScience8PracticalMachineLearningProject.html]
+Compiled with results html page Link to git.io Project (as submitted to Coursera) Page:[https://adityaem.github.io/DataScience8PracticalMachineLearningProject.html]
+
 
 ## Project Background
 

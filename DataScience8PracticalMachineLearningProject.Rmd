@@ -165,6 +165,17 @@ Validate_Prediction <- predict(modFit_rm, newdata=TestDF)
 Validate_Prediction
 ```
 
+```{r}
+pml_write_files = function(x){
+  n = length(x)
+  for(i in 1:n){
+    filename = paste0("problem_id_",i,".txt")
+    write.table(x[i],file=filename,quote=FALSE,row.names=FALSE,col.names=FALSE)
+  }
+}
+pml_write_files(Validate_Prediction)
+```
+
 ##Conclusion
 Random Forest was a superior model for prediction compared to rpart. The decision tree model was dependent on various variables and the interaction between them which caused the model to be inadequate. The Random Forrest model had over 98.6% accuracy and fitted well to other subsamples of the data. However, the algorithm may not have as high of accuracy on other samples,especially with a more varied subject pool. 
 Overall, it is interesting to consider how monitors are affected by the way an execrise was conducted relative to other data points collected by the monitor to infer the subjects activities.
